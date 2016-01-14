@@ -1,0 +1,127 @@
+
+/* Main Container */
+body {
+	background-color: gray;
+}
+.container {
+	width: 505px; 
+	margin: 0 auto;
+	background-color: #e6e6e6;
+}
+
+body {
+  text-align: center;
+ }
+
+/* Header Elements */
+.header {
+	background-color: #00cc66;
+	height: 210px;
+	width: 505px;
+	position: absolute;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 23px;
+	color: white;
+	font-family: Arial, Helvetica;
+	position: relative;
+	top: 150px;
+	left: 20px;
+	text-align: left;
+}
+
+.navbar {
+	height: 40px;
+	background-color: #333333;
+	position: relative;
+	top: 208px;
+	border-top: 5px solid rgba(0, 204, 102, .7);
+	border-bottom: 5px solid rgba(217, 217, 217, .6);
+}
+
+.navbar ul, li {
+	list-style-type: none;
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	text-align: right;
+}
+
+/* Articles */
+
+h2 {
+	font-family: Helvetica, Arial;
+	color: #000;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.article {
+	background-color: #e6e6e6;
+	width: 505px;
+	position: relative;
+	top: 192px;
+}
+
+p {
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+}
+
+.specimen {
+	color: #99004d;
+	font-weight: bold;
+}
+
+/* Section Title */
+h3 {
+	color: black;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.section-title {
+	position: relative;
+	top: 180px;
+	background-color: #e6e6e6;
+	text-align: left;
+	padding-top: 30px;
+}
+hr {
+	color: darkgrey;
+	width: 480px;
+}
+
+/* Table & Buttons */
+.table {
+	width: 470px;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+tr, td, th {
+	border: 1px solid black;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	padding: 5px;
+
+}
+.try, .view, .go {
+	background-color: #33adff;
+	color: #fff;
+	font-family: Helvetica, Arial;
+	border: none;
+	box-shadow: none;
+}
+
+
